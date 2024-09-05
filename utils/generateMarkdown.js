@@ -34,7 +34,7 @@ function generateMarkdown(data) {
 [License](#license)\n
 [Badge](#badge)\n
 [Features](#features)\n
-[Contribute](#contribute)\n
+[Contributing](#contributing)\n
 [Tests](#tests)\n
 ## Installation\n${data.install}
 ## Usage\n${data.usage}
@@ -42,8 +42,9 @@ function generateMarkdown(data) {
 ## License\n${data.license}
 ## Badge\n${data.badges}
 ## Features\n${data.features}
-## Contribute\n${data.contribute}
-## Tests\n${data.tests}`;
+## Contributing\n${data.contribute}
+## Tests\n${data.tests}
+## Questions\nHave questions? Here is my GitHub profile: https://github.com/${data.username} and my email: ${data.email}`;
 }
 
 export default generateMarkdown;

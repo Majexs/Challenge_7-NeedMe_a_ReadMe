@@ -14,7 +14,7 @@
 
 [Features](#features)
 
-[Contribute](#contribute)
+[Contributing](#contributing)
 
 [Tests](#tests)
 
@@ -30,7 +30,9 @@
 undefined
 ## Features
 7
-## Contribute
+## Contributing
 8
 ## Tests
 9
+## Questions
+Have questions? Here is my GitHub profile: https://github.com/Majexs and my email: majexs@gmail.com
