@@ -1,6 +1,7 @@
-# 1
+
+# A
 ## Description
-2
+B
 ## Table of Contents
 [Installation](#installation)
 
@@ -10,8 +11,6 @@
 
 [License](#license)
 
-[Badge](#badge)
-
 [Features](#features)
 
 [Contributing](#contributing)
@@ -19,20 +18,18 @@
 [Tests](#tests)
 
 ## Installation
-3
+C
 ## Usage
-4
+D
 ## Credits
-5
+E
 ## License
-6
-## Badge
-undefined
+
 ## Features
-7
+F
 ## Contributing
-8
+G
 ## Tests
-9
+H
 ## Questions
-Have questions? Here is my GitHub profile: https://github.com/Majexs and my email: majexs@gmail.com
+Have questions? Here is my GitHub profile: https://github.com/I and my email: J

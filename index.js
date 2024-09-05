@@ -1,7 +1,7 @@
 // Packages installed to run this application
 import inquirer from 'inquirer';
 import fs from 'fs';
-import { renderLicenseBadge, renderLicenseLink, renderLicenseSection } from './utils/generateMarkdown.js';
+// import { renderLicenseBadge, renderLicenseLink, renderLicenseSection } from './utils/generateMarkdown.js';
 import generateMarkdown from './utils/generateMarkdown.js';
 
 // Array of questions that are prompted to create the README file
@@ -56,12 +56,12 @@ function init() {
                 type: 'list',
                 name: 'license',
                 message: `${questions[5]}`,
-                choices: ['None', 
+                choices: ['', 
                         'Apache License 2.0', 
                         'GNU General Public License v3.0', 
                         'MIT License', 
-                        'BSD 2-Clause "Simplified"', 
-                        'BSD 3-Clause "New" or "Revised" License',
+                        'BSD 2--Clause Simplified', 
+                        'BSD 3--Clause New or Revised License',
                         'Boost Software License 1.0',
                         'Creative Commons Zero v1.0',
                         'Eclipse Public License 2.0',

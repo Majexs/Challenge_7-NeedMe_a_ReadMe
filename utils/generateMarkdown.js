@@ -1,10 +1,12 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-import { makeBadge, ValidationError } from 'badge-maker';
+// import { makeBadge, ValidationError } from 'badge-maker';
+
 // If there is no license, return an empty string
 let license;
 export function renderLicenseBadge(license) {
-  if (license) {
-    return `https://shields.io/${license}`;
+  let licenseLink = license.replaceAll(' ', '%20');
+  if (licenseLink) {
+    return `![Static Badge](https://img.shields.io/badge/License-${licenseLink}-blue)`;
   } else {
     return '';
   }
@@ -25,14 +27,14 @@ export function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `${renderLicenseBadge(data.license)}
+# ${data.title}
 ## Description\n${data.description}
 ## Table of Contents
 [Installation](#installation)\n
 [Usage](#usage)\n
 [Credits](#credits)\n
 [License](#license)\n
-[Badge](#badge)\n
 [Features](#features)\n
 [Contributing](#contributing)\n
 [Tests](#tests)\n
@@ -40,7 +42,6 @@ function generateMarkdown(data) {
 ## Usage\n${data.usage}
 ## Credits\n${data.credits}
 ## License\n${data.license}
-## Badge\n${data.badges}
 ## Features\n${data.features}
 ## Contributing\n${data.contribute}
 ## Tests\n${data.tests}
