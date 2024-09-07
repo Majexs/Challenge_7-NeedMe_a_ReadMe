@@ -1,4 +1,4 @@
-
+![Static Badge](https://img.shields.io/badge/License-Apache%20License%202.0-blue)
 # A
 ## Description
 B
@@ -24,7 +24,7 @@ D
 ## Credits
 E
 ## License
-
+This project is licensed under the terms of the Apache License 2.0 license.
 ## Features
 F
 ## Contributing

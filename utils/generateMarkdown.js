@@ -1,5 +1,4 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// import { makeBadge, ValidationError } from 'badge-maker';
 
 // If there is no license, return an empty string
 let license;
@@ -41,7 +40,7 @@ function generateMarkdown(data) {
 ## Installation\n${data.install}
 ## Usage\n${data.usage}
 ## Credits\n${data.credits}
-## License\n${data.license}
+## License\nThis project is licensed under the terms of the ${data.license}.
 ## Features\n${data.features}
 ## Contributing\n${data.contribute}
 ## Tests\n${data.tests}
