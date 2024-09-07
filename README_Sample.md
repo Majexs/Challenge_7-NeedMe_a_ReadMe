@@ -1,7 +1,7 @@
 ![Static Badge](https://img.shields.io/badge/License-Apache%20License%202.0-blue)
-# A
+# Apple
 ## Description
-B
+Banana
 ## Table of Contents
 [Installation](#installation)
 
@@ -18,18 +18,18 @@ B
 [Tests](#tests)
 
 ## Installation
-C
+Clementine
 ## Usage
-D
+Date
 ## Credits
-E
+Eggplant
 ## License
-This project is licensed under the terms of the Apache License 2.0 license.
+This project is licensed under the terms of the Apache License 2.0.
 ## Features
-F
+Fruits
 ## Contributing
-G
+Grapes
 ## Tests
-H
+Honeydew
 ## Questions
-Have questions? Here is my GitHub profile: https://github.com/I and my email: J
+Have questions? Here is my GitHub profile: https://github.com/Orange and my email: Pomegranite

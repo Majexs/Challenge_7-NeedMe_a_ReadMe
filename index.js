@@ -1,7 +1,6 @@
 // Packages installed to run this application
 import inquirer from 'inquirer';
 import fs from 'fs';
-// import { renderLicenseBadge, renderLicenseLink, renderLicenseSection } from './utils/generateMarkdown.js';
 import generateMarkdown from './utils/generateMarkdown.js';
 
 // Array of questions that are prompted to create the README file
