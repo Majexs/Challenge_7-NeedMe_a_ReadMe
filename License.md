@@ -1,6 +1,6 @@
-Apache License 2.0
+MIT License
 
-Copyright (c) 2024 Orange
+Copyright (c) 2024 Majexs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
