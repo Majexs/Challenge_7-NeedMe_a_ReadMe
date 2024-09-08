@@ -60,12 +60,16 @@ export function renderLicenseLink(license) {
 
 export function renderLicenseSection(license) {
   return `${renderLicenseBadge(license)}
-  
+
   ${renderLicenseLink(license)}`;
 }
 
 // Function that creates a markdown template for the data input by the prompts
 function generateMarkdown(data) {
+  let license = `This project is licensed under the terms of the ${data.license}.`
+  if (data.license === 'No License') {
+    license = `This project is not issued under any license.`
+  }
   return `${renderLicenseSection(data.license)}
 # ${data.title}
 ## Description
@@ -85,7 +89,7 @@ ${data.usage}
 ## Credits
 ${data.credits}
 ## License
-This project is licensed under the terms of the ${data.license}.
+${license}
 ## Features
 ${data.features}
 ## Contributing

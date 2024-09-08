@@ -1,5 +1,5 @@
 
-  
+
   
 # 
 ## Description
@@ -19,7 +19,7 @@
 ## Credits
 
 ## License
-This project is licensed under the terms of the No License.
+This project is not issued under any license.
 ## Features
 
 ## Contributing
