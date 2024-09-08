@@ -6,7 +6,7 @@ This is a weekly challenge for the Engineering Bootcamp. It uses node.js to crea
 Through npm, the user will need to install fs to create files and inquirer to allow for prompts and responses.
 ## Usage
 Please see the accompanying video in the link below. A sample README will be created (which is included in this repo).
-https://drive.google.com/file/d/1CkPOrWtB4FjNgtr9Bz4MNo3O6PZF1_yt/view
+https://drive.google.com/file/d/18oGhPbispLtjhWUhdS30hILXyEf_a0sL/view
 ## Credits
 While this project was created solely by James Swanson, the starter code was included ahead of time by the instructor.
 ## License
