@@ -1,5 +1,6 @@
 // Packages installed to run this application
 import inquirer from 'inquirer';
+// Need to import but not install fs
 import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
 
@@ -20,7 +21,7 @@ const questions = [
 
 // Function that created a Markdown file from the prompt responses
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, generateMarkdown(data), (err) => err ? console.error(err) : console.log('Commit logged!'));
+    fs.writeFile(`./dist/${fileName}`, data, (err) => err ? console.error(err) : console.log('README Created!'));
 }
 
 // Function that initializes the prompts
@@ -55,7 +56,7 @@ function init() {
                 type: 'list',
                 name: 'license',
                 message: `${questions[5]}`,
-                choices: ['', 
+                choices: ['No License', 
                         'Apache License 2.0', 
                         'GNU General Public License v3.0', 
                         'MIT License', 
@@ -98,7 +99,8 @@ function init() {
             },
         ])
         .then((response) => {
-            writeToFile('README_Sample.md', response);
+            const data = generateMarkdown(response);
+            writeToFile('README.md', data);
         });
 }
 

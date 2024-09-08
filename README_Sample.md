@@ -1,7 +1,7 @@
-![Static Badge](https://img.shields.io/badge/License-MIT%20License-blue)
-# My Super Awesome Project
+![Static Badge](https://img.shields.io/badge/License-BSD%203--Clause%20New%20or%20Revised%20License-blue)
+# James is Awesome
 ## Description
-Here is an amazing project by yours truly - I'm so excited to share it with you!
+It goes without saying
 ## Table of Contents
 [Installation](#installation)
 
@@ -18,18 +18,18 @@ Here is an amazing project by yours truly - I'm so excited to share it with you!
 [Tests](#tests)
 
 ## Installation
-You will need to download fs for writing and appending files as well as Inquirer for prompts and responses
+First you need to install fs and then inquirer through npm
 ## Usage
-You can view an example by watching the video in the README
+See the attached video for a demonstration
 ## Credits
-Just me myself and I
+Me, Myself, I
 ## License
-This project is licensed under the terms of the MIT License.
+This project is licensed under the terms of the BSD 3--Clause New or Revised License.
 ## Features
-Not as of this moment but perhaps in the near future
+not as of yet
 ## Contributing
-They can download the repo locally and add features through vs code
+They can download the repo from GitHub and edit it locally
 ## Tests
-nope!
+Nope
 ## Questions
 Have questions? Here is my GitHub profile: https://github.com/Majexs and my email: majexs@gmail.com
